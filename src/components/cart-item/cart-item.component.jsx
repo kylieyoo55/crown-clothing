@@ -1,5 +1,4 @@
 import React from 'react';
-import { CartActionType } from '../../redux/cart/cart.types';
 
 import './cart-item.styles.scss';
 
