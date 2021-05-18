@@ -10,11 +10,16 @@
     .buttons{
         display: flex;
         justify-content: space-between;
+
+
+        .icon{
+            padding: 18px 0px 18px 5px;
+           
+            
+        }
     }
+    
     
     
 }
 
-.icon{
-    padding-left: 10px;
-}
