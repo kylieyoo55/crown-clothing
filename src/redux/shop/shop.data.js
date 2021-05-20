@@ -1,7 +1,7 @@
 /* Used as starting data for ShopPage */
 
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  hats:{
     id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -59,18 +59,21 @@ const SHOP_DATA = [
         id: 8,
         name: 'Wolf Cap',
         // imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        imageUrl: "/images/shop-img/hats/wolf-cap.png",
+        // imageUrl: "/images/shop-img/hats/wolf-cap.png",
+        imageUrl:'https://i.ibb.co/nBVKmfD/sunset-hat-506496-800x.jpg',
         price: 14
       },
       {
         id: 9,
         name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
+        imageUrl:'https://i.ibb.co/MsjCKtv/capblue.jpg',
+        //  'https://i.ibb.co/X2VJP2W/blue-snapback.png',
         // imageUrl: "/images/shop-img/hats/blue-snapback.png",
         price: 16
       }
     ]
   },
+  sneakers:
   {
     id: 2,
     title: 'Sneakers',
@@ -134,6 +137,7 @@ const SHOP_DATA = [
       }
     ]
   },
+  jackets:
   {
     id: 3,
     title: 'Jackets',
@@ -176,6 +180,7 @@ const SHOP_DATA = [
       }
     ]
   },
+  womens:
   {
     id: 4,
     title: 'Womens',
@@ -232,6 +237,7 @@ const SHOP_DATA = [
       }
     ]
   },
+  mens:
   {
     id: 5,
     title: 'Mens',
@@ -281,6 +287,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;
